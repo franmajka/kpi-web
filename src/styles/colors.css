@@ -1,0 +1,47 @@
+:root {
+  --primary-1: #DDE9DF;
+  --primary-2: #BAD3BF;
+  --primary-3: #8EB695;
+  --primary-4: #7AA983;
+  --primary-5: #679D70;
+  --primary-6: #598A62;
+  --primary-7: #4C7654;
+  --primary-8: #406246;
+  --primary-9: #334F38;
+  --primary-10: #263B2A;
+
+  --secondary-1: #FEEBEE;
+  --secondary-2: #FDDBE1;
+  --secondary-3: #FCCCD4;
+  --secondary-4: #FBB6C2;
+  --secondary-5: #FBA7B0;
+  --secondary-6: #FB9DA7;
+  --secondary-7: #FA8995;
+  --secondary-8: #F97684;
+  --secondary-9: #F96272;
+  --secondary-10: #F84F61;
+
+  --tertiary-1: #FAF3E8;
+  --tertiary-2: #F8E8CD;
+  --tertiary-3: #FFE5B9;
+  --tertiary-4: #FBDEA2;
+  --tertiary-5: #F9D07A;
+  --tertiary-6: #F8C967;
+  --tertiary-7: #F8C253;
+  --tertiary-8: #F7BB3F;
+  --tertiary-9: #F6B42B;
+  --tertiary-10: #EEA30A;
+
+  --grey-1: #FFFFFF;
+  --grey-2: #F3F4F9;
+  --grey-3: #DBDBE7;
+  --grey-4: #C3C3D7;
+  --grey-5: #9F9FBD;
+  --grey-6: #8181A3;
+  --grey-7: #656584;
+  --grey-8: #3F3F5E;
+  --grey-9: #191936;
+  --grey-10: #020223;
+
+  --error: #F43F5E;
+}
