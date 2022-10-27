@@ -1,86 +1,118 @@
-#container-main-page {
-    background-image: url('../assets/images/main-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+#block-main-page {
+  background-image: url('../assets/images/main-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
-#container-main-page h1 {
-    color: #263B2A;
-    font-style: url('../assets/fonts/Quart.ttf');
-    position: absolute;
-    font-size: 48px;
-    left: 59%; 
-    top: 425px;
-    width: 805px;
-    height: 75px; 
+#block-main-page h1 {
+  color: #263B2A;
+  font-style: url('../assets/fonts/Quart.ttf');
+  position: absolute;
+  font-size: 48px;
+  left: 59%;
+  top: 425px;
+  width: 805px;
+  height: 75px;
 }
 
-#container-main-page button {
-    font-style: url('../assets/fonts/Quart.ttf');
-    border: none;
-    background-color: transparent;
-    font-size: 31px;
-    cursor: pointer;
-    border-radius: 20px;
-    color: #263B2A;
-    font-weight: bolder;
-    border: 5px solid #263B2A;
-    position: absolute; 
-    left: 60%; 
-    top: 525px;
-    width: 430px;
-    height: 90px; 
+#block-main-page button {
+  font-style: url('../assets/fonts/Quart.ttf');
+  border: none;
+  background-color: transparent;
+  font-size: 31px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #263B2A;
+  font-weight: bolder;
+  border: 5px solid #263B2A;
+  position: absolute;
+  left: 60%;
+  top: 525px;
+  width: 430px;
+  height: 90px;
 }
 
-  
-#container-main-page button:hover {
-    background-color: #263B2A;
-    color: white;
+
+#block-main-page button:hover {
+  background-color: #263B2A;
+  color: white;
 }
 
-#container-about-us{
-    width: 100%;
-    height: 100vh;
-    text-align: center;  
+#block-about-us {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
 }
 
-#container-about-us h1 {
-    color: #263B2A;
-    font-style: url('../assets/fonts/Quart.ttf');
-    font-size: 48px;
+#block-about-us h1 {
+  color: #263B2A;
+  font-style: url('../assets/fonts/Quart.ttf');
+  font-size: 48px;
 }
 
-#container-about-us p {
-    color: #263B2A;
-    font-style: url('../assets/fonts/Quart.ttf');
-    font-size: 31px;
+#block-about-us p {
+  color: #263B2A;
+  font-style: url('../assets/fonts/Quart.ttf');
+  font-size: 31px;
 }
 
-#container-about-us points {
-    color: #263B2A;
-    font-style: url('../assets/fonts/Quart.ttf');
-    font-size: 96px;
-    margin-left: 15%;
-    margin-top: 6%;
-    text-align: left;  
-    font-weight: bolder;
-    display: block; 
+#block-about-us points {
+  color: #263B2A;
+  font-style: url('../assets/fonts/Quart.ttf');
+  font-size: 96px;
+  margin-left: 15%;
+  margin-top: 6%;
+  text-align: left;
+  font-weight: bolder;
+  display: block;
 }
 
-#container-about-us img {
-    color: #263B2A;
-    position: absolute;
-    left: 60%; 
-    width: 430px;
-    height: 600px; 
+#block-about-us img {
+  color: #263B2A;
+  position: absolute;
+  left: 60%;
+  width: 430px;
+  height: 600px;
 }
 
-#sections{
-    display: flex;
+#sections {
+  display: flex;
 }
 
-#sections img{
-    width: 100%;
+#sections img {
+  width: 100%;
+}
+
+#block-top-slow-cooker-recipes {
+  width: 100%;
+}
+
+#block-top-slow-cooker-recipes h1 {
+  color: #263B2A;
+  font-style: url('../assets/fonts/Quart.ttf');
+  font-size: 48px;
+  text-align: center;
+}
+
+#block-top-slow-cooker-recipes .recipes {
+  display: flex;
+}
+
+#block-top-slow-cooker-recipes .recipes .card {
+  border: dashed #263B2A;
+  border-radius: 100px;
+  text-align: center;
+}
+
+#block-top-slow-cooker-recipes img {
+  border-radius: 100px;
+}
+
+#block-top-slow-cooker-recipes .recipes .card h1{
+  border: #263B2A;
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
 }
