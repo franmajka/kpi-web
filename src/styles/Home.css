@@ -27,7 +27,6 @@
 
 #block-main-page h1 {
   color: #263B2A;
-  font-style: url('../assets/fonts/Quart.ttf');
   position: absolute;
   font-size: 48px;
   left: 58%;
@@ -37,7 +36,6 @@
 }
 
 #block-main-page button {
-  font-style: url('../assets/fonts/Quart.ttf');
   border: none;
   background-color: transparent;
   font-size: 31px;
@@ -70,13 +68,11 @@
 
 #block-about-us p {
   color: #263B2A;
-  font-style: url('../assets/fonts/Quart.ttf');
   font-size: 31px;
 }
 
 #block-about-us points {
   color: #263B2A;
-  font-style: url('../assets/fonts/Quart.ttf');
   font-size: 96px;
   margin-left: 15%;
   margin-top: 6%;
