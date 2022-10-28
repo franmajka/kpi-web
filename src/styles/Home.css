@@ -6,12 +6,31 @@
   height: 100vh;
 }
 
+#block-main-page .header {
+  background-color:rgba(217, 217, 217, 0.3);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#block-main-page .header a {
+  color: #263B2A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#block-main-page .header a:hover {
+  color: var(--tertiary-10);
+}
+
 #block-main-page h1 {
   color: #263B2A;
   font-style: url('../assets/fonts/Quart.ttf');
   position: absolute;
   font-size: 48px;
-  left: 59%;
+  left: 58%;
   top: 425px;
   width: 805px;
   height: 75px;
@@ -34,7 +53,6 @@
   height: 90px;
 }
 
-
 #block-main-page button:hover {
   background-color: #263B2A;
   color: white;
@@ -48,8 +66,6 @@
 
 #block-about-us h1 {
   color: #263B2A;
-  font-style: url('../assets/fonts/Quart.ttf');
-  font-size: 48px;
 }
 
 #block-about-us p {
@@ -77,12 +93,35 @@
   height: 600px;
 }
 
-#sections {
+#block-sections {
   display: flex;
 }
 
-#sections img {
+#block-sections .unit{
+  cursor: pointer;
+  position: relative;
+  width: calc(100% / 3);
+}
+
+#block-sections .unit h1 {
+  z-index: 10;
+  color: #263B2A;
+  background-color: rgba(248, 232, 205, 0.8);
+  padding: 31px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+
+#block-sections .unit img {
   width: 100%;
+}
+
+#block-sections .unit:hover img{
+  -webkit-filter: grayscale(.75);
+  filter: grayscale(.75);
 }
 
 #block-top-slow-cooker-recipes {
@@ -91,13 +130,12 @@
 
 #block-top-slow-cooker-recipes h1 {
   color: #263B2A;
-  font-style: url('../assets/fonts/Quart.ttf');
-  font-size: 48px;
   text-align: center;
 }
 
 #block-top-slow-cooker-recipes .recipes {
   display: flex;
+  justify-content: space-evenly;
 }
 
 #block-top-slow-cooker-recipes .recipes .card {
@@ -115,4 +153,33 @@
   text-align: center;
   font-size: 35px;
   margin: 0;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+#block-top-slow-cooker-recipes .recipes .card p{
+  border: #263B2A;
+  margin: 0;
+}
+
+#block-recommendation {
+  width: 100%;
+}
+
+#block-recommendation .gallery{
+  display:grid;
+  grid-template-columns:repeat(3, 33%);
+  grid-auto-flow:row dense;
+  grid-auto-rows: auto;
+
+}
+
+#block-recommendation h1 {
+  color: #263B2A;
+  text-align: center;
+}
+
+#block-recommendation .gallery img{
+  width: 100%;
+  /* grid-row: auto/span; */
 }
