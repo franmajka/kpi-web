@@ -163,10 +163,16 @@
 }
 
 #block-recommendation .gallery{
-  display:grid;
-  grid-template-columns:repeat(3, 33%);
-  grid-auto-flow:row dense;
-  grid-auto-rows: auto;
+  line-height: 0;       
+  -webkit-column-count: 3;    
+  -webkit-column-gap: 0px;    
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  column-count: 3;    
+  column-gap: 0px;    
+  display:inline-block;    
+  margin-right: auto;    
+  margin-left: auto;  
 
 }
 
@@ -176,6 +182,6 @@
 }
 
 #block-recommendation .gallery img{
-  width: 100%;
-  /* grid-row: auto/span; */
+  width: 100% !important;    
+  height: auto !important;  
 }
