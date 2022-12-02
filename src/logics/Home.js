@@ -1,4 +1,11 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var image = document.getElementById("container");
-    alert(`${image.width} x ${image.height}`);
-}, false);
+window.addEventListener("load", (event) => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
