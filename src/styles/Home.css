@@ -25,7 +25,7 @@
   color: var(--tertiary-10);
 }
 
-#block-main-page h1 {
+#block-main-page .h1 {
   color: #263B2A;
   position: absolute;
   font-size: 48px;
@@ -62,7 +62,7 @@
   text-align: center;
 }
 
-#block-about-us h1 {
+#block-about-us .h1 {
   color: #263B2A;
 }
 
@@ -99,7 +99,7 @@
   width: calc(100% / 3);
 }
 
-#block-sections .unit h1 {
+#block-sections .unit .h1 {
   z-index: 10;
   color: #263B2A;
   background-color: rgba(248, 232, 205, 0.8);
@@ -124,7 +124,7 @@
   width: 100%;
 }
 
-#block-top-slow-cooker-recipes h1 {
+#block-top-slow-cooker-recipes .h1 {
   color: #263B2A;
   text-align: center;
 }
@@ -144,7 +144,7 @@
   border-radius: 100px;
 }
 
-#block-top-slow-cooker-recipes .recipes .card h1{
+#block-top-slow-cooker-recipes .recipes .card .h1{
   border: #263B2A;
   text-align: center;
   font-size: 35px;
@@ -176,7 +176,7 @@
 
 }
 
-#block-recommendation h1 {
+#block-recommendation .h1 {
   color: #263B2A;
   text-align: center;
 }
