@@ -1,4 +1,4 @@
-@include "./colors.css";
+@import "./colors.css";
 
 @font-face {
   font-family: "FuturaPT";
@@ -66,4 +66,12 @@
   font-size: 26px;
   line-height: 31px;
   font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary-10 {
+  color: var(--primary-10);
 }
