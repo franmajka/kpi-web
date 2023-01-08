@@ -15,7 +15,6 @@
 <body>
 
   <div id="block-main-page">
-
     <div class="header">
       <a href="#block-main-page" class="h3">Home</a>
       <a href="#block-about-us" class="h3">About</a>
@@ -24,10 +23,34 @@
     </div>
 
     <h1 class="h1">WHAT CAN I COOK?</h1>
-    <button class="h2">START</button>
-    
+    <button class="open-popup">START</button>
   </div>
 
+
+  <div class="popup__bg"> 
+    <form class="popup">
+        <p class = "close-popup">✖</p>
+        <label>
+            <input type="text" name="name">
+            <div class="label__text">
+                Name
+            </div>
+        </label>
+        <label>
+            <input type="tel" name="tel">
+            <div class="label__text">
+                Phone
+            </div>
+        </label>
+        <label>
+            <textarea name="message"></textarea>
+            <div class="label__text">
+                Message
+            </div>
+        </label>
+        <button type="submit">Отправить</button>
+    </form>
+  </div> 
 
   <div id="block-about-us">
     <h2 class="h1">ABOUT US</h2>
